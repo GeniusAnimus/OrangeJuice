@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+header{
+	width:100%;
+	background-color: #FA7F01;
+	height:120px;
+	text-decoration: none;
+}
+
+/* LOGO TeXT AND PICTURE - TOPLEFT */
+.topLogo{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	display: inline-block;
+	padding-left: 5%;
+	text-decoration: none;
+	top:30px;
+
+}
+
+.topLogo a{
+	text-decoration: none;
+	font-size: 50px;
+
+}
+
+.topLogo a img{
+	position: absolute;
+    top:10px;
+	height: 45px;
+	width: 47px;
+	color: white;
+	-webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.topLogo div.textLogo{
+	display: inline-block;
+	margin-left: 49px;
+	color: white;
+	
+	
+}
+.topLogo a span{
+	font-weight: 900;
+}
+
+.topLogo sup{
+	font-size: 15px;
+}
+
+
+
+
+/* NAVBAR TOP RIGHT */
+.topNav{
+	display: inline-block;
+	position: relative;
+	float:right;
+
+}
+
+.topNav nav {
+	position: relative;
+}
+.topNav nav ul {
+	float: right;
+}
+.topNav nav ul a li {
+	font-family: sans-serif;
+	margin-top:0;
+	display: inline-block;
+	padding-right: 50px;
+	font-weight: 600;
+	color:white;
+	
+}
+
+/* SEARCHBOX */
+.searchBox input{
+	padding:12px 15px;
+	float:right;
+	background-color:#F0F0F0 ;
+	width:200px;
+	margin-right: 200px;
+}
+
+.searchBox img{
+	position: absolute;
+	height:15px;
+	width: 15px;
+	right:215px;
+	top: 135px;
+}
+
+
+/* CTA SECTION */
+section{
+	margin:0 15%;
+}
+section img{
+	margin-top: 190px;
+}
+
+section p {
+	color:#FA7F01;
+	font-family: 'Poiret One', cursive;
+	display: inline-block;
+	font-size: 55px ;
+	vertical-align: top;
+	margin-top: 210px;
+	width:50%;
+	margin-left: 2%;
+}
+
+section p span{
+	font-weight: 900;
+	color: #7ACCC9;
+}
+section p span:first-child{
+	color:#FA7F01;
+}
+section p sup{
+	font-size: 20px;
+}
+
+/* Buttons */
+.quoteButton {
+	padding-top: 12px;
+	font-weight: 700;
+	position: relative;
+	display: inline-block;
+	height:40px;
+	width:300px;
+	background-color:#FA7F01 ;
+	text-align: center;
+	top:-100px;
+	left: 435px;
+}
+
+.quoteButton p{
+	color:#FFFFFF;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	display: inline;
+
+}
+
+.studiesButton {
+	padding-top: 12px;
+	font-weight: 700;
+	position: relative;
+	display: inline-block;
+	height:40px;
+	width:300px;
+	background-color:#7ACCC9 ;
+	text-align: center;
+	top:-100px;
+	left: 450px;
+}
+
+.studiesButton p{
+	color:#FFFFFF;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	display: inline;
+
+}
+
+/* FOOTER */
+
+footer div{
+	width:100%;
+	display: block;
+	height:120px;
+	background-color: #7ACCC9;
+	bottom: 0%;
+	position:absolute;
+	
+}
